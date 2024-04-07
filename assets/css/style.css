@@ -1,0 +1,76 @@
+                /* Shared CSS */
+
+* {
+    transition: color 1s;
+    transition: background-color 1s;
+    transition: border-color 1s;
+}
+
+body > header {
+    border-bottom: 7px double;
+}
+
+body {
+    font-family: Helvetica, 'Segoe UI', Verdana, system-ui;
+    font-size: 16px;
+}
+
+h1 {
+    display: inline-block;
+    margin: 20px 0px 20px 40px;
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+h2, h3, label {
+    font-family: Arial, Calibri, sans-serif;
+    font-size: 150%;
+}
+
+#theme-button {
+    float: right;
+    margin: 30px 50px;
+}
+
+header {
+    border-bottom: 1px solid;
+    padding: 5px;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+}
+
+main {
+    min-height: calc(100vh - 160px);
+}
+
+footer {
+    border-top: 7px double;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: Impact, 'Franklin Gothic Medium', Calibri, sans-serif;
+}
+
+/* Light and Dark Modes */
+
+/* TAG STOCK */
+/* body header h1 h2 h3 p main "aside" section   form div label input   footer */
+/*  .form-div #username #title #blog-post */
+.light {
+    background-color: white;
+    border-color: black;
+    color: black;
+    
+}
+
+.dark {
+    background-color: black;
+    border-color: white;
+    color: white;
+
+}
