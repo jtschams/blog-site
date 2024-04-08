@@ -1,4 +1,22 @@
-/* TAG STOCK */
-/* body header h1 main section   h2 h3 p   footer */
-/* .post  */
+article {
+    position: relative;
+    margin: 20px 25vw 3.5em 15vw;
+    border: 5px double;
+    border-radius: 5px;
+}
 
+h2 {
+    margin: 20px 50px 10px 30px;
+}
+
+h3 {
+    position: absolute;
+    bottom: -1.5em;
+    left: 50px;
+}
+
+p {
+    margin: 10px;
+    line-height: 150%;
+    font-family: Helvetica, 'Segoe UI', Verdana, system-ui;
+}

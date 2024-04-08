@@ -36,11 +36,13 @@ h2, h3, label {
 header {
     border-bottom: 1px solid;
     padding: 5px;
+    min-height: 16px;
 }
 
 a {
     color: inherit;
     cursor: pointer;
+    margin: 0px 10px;
 }
 
 main {

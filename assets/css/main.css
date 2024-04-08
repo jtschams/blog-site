@@ -1,3 +1,69 @@
-/* TAG STOCK */
-/* body header h1 main "aside" section   form div label input   footer */
-/* .form-div #username #title #blog-post */
+main {
+    display: flex;
+}
+
+aside {
+    display: inline-block;
+    border-right: 7px double;
+    min-height: calc(100vh - 160px);
+    width: 50vw;
+    margin: 0;
+}
+
+section {
+    display: inline-block;
+    width: 50vw;
+    height: calc(100vh - 160px)
+}
+
+header a {
+    float: right;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15% 10% 0;
+}
+
+.form-div {
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+.form-div:nth-child(3) {
+    width:80%;
+}
+
+.form-div:nth-child(2) {
+    text-align: right;
+}
+
+.form-div:last-child {
+    text-align: center;
+}
+
+.form-div button {
+    font-size: 24px;
+    width: 120px;
+}
+
+.form-div button, input, textarea {
+    border: 5px double;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+label {
+    display: block;
+    padding: 10px;
+}
+
+
+textarea {
+    width: calc(100% - 20px);
+    height: calc(30vh - 20px);
+    line-height: 150%;
+    padding: 10px;
+}
