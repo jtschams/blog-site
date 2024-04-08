@@ -1,18 +1,21 @@
                 /* Shared CSS */
 
 * {
-    transition: color 1s;
-    transition: background-color 1s;
-    transition: border-color 1s;
+    transition: all 1s;
 }
 
 body > header {
     border-bottom: 7px double;
+    height: 75px;
 }
 
 body {
     font-family: Helvetica, 'Segoe UI', Verdana, system-ui;
     font-size: 16px;
+}
+
+button {
+    cursor: pointer;
 }
 
 h1 {
@@ -30,7 +33,9 @@ h2, h3, label {
 
 #theme-button {
     float: right;
-    margin: 30px 50px;
+    height: 25px;
+    width: 25px;
+    margin: 25px;
 }
 
 header {
@@ -50,29 +55,45 @@ main {
 }
 
 footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    font-size: 150%;
+    padding: 0 20%;
     border-top: 7px double;
 }
 
 footer a {
-    text-decoration: none;
-    font-family: Impact, 'Franklin Gothic Medium', Calibri, sans-serif;
+    font-family: 'Franklin Gothic Medium', Calibri, sans-serif;
 }
 
 /* Light and Dark Modes */
 
-/* TAG STOCK */
-/* body header h1 h2 h3 p main "aside" section   form div label input   footer */
-/*  .form-div #username #title #blog-post */
 .light {
     background-color: white;
     border-color: black;
-    color: black;
-    
+    color: black; 
+}
+
+.light button {
+    background-color: #222222;
+    color: white;
+    border-color: white;
 }
 
 .dark {
     background-color: black;
     border-color: white;
     color: white;
+}
 
+.dark a {
+    color: white;
+}
+
+.dark input, .dark textarea {
+    background-color: #111111;
+    border-color: white;
+    color: white;
 }

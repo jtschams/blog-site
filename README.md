@@ -4,6 +4,8 @@
 
 This repository is made for the purpose of CREATE DESCRIPTION HERE
 
+TODO: ADD ICONS TO NAVIGATION ARROWS AND DAR LIGHT THEME.  ADD LAVALAMP
+
 ## Visuals
 
 ![Screenshot of Completed Site]()

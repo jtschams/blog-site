@@ -60,6 +60,9 @@ label {
     padding: 10px;
 }
 
+input {
+    max-width: calc(100% - 12px);
+}
 
 textarea {
     width: calc(100% - 20px);
