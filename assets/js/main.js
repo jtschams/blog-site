@@ -28,7 +28,6 @@ const lavaLamp = function() {
         colorsArray.push(color);
         anglesArray.push(Math.floor(Math.random() * 360));
     }
-    console.log(colorsArray);
     document.querySelector('figure').setAttribute('style', `background: linear-gradient(${anglesArray[1]}deg, #${colorsArray[1]}, #${colorsArray[0]}00 70%), linear-gradient(${anglesArray[2]}deg, #${colorsArray[2]}, #${colorsArray[0]}00 70%), linear-gradient(${anglesArray[3]}deg, #${colorsArray[3]}, #${colorsArray[0]}00 70%), linear-gradient(${anglesArray[4]}deg, #${colorsArray[4]}, #${colorsArray[0]}00 70%);`);
 }
 

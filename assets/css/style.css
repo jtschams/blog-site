@@ -87,7 +87,7 @@ footer a {
     border-color: white;
 }
 
-.light #theme-button::after {
+#theme-button::after {
     position: absolute;
     content: '\1F31E';
     bottom: 1px;

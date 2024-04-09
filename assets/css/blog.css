@@ -21,6 +21,6 @@ p {
     font-family: Helvetica, 'Segoe UI', Verdana, system-ui;
 }
 
-footer {
-    margin-top: 42px;
+#post-list {
+    padding-bottom: 1px;
 }
