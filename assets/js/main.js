@@ -14,6 +14,22 @@ const init = function() {
         blogPosts = storedPosts;
     }
     themeClass.setAttribute('class', currentTheme);
+    lavaLamp();
+}
+
+const lavaLamp = function() {
+    const colorsArray = [];
+    const anglesArray = [];
+    for (i = 0; i < 5; i++) {
+        let color = Math.floor(Math.random() * 16777216).toString(16);
+        while (color.length < 6) {
+            color = '0' + color; 
+        }
+        colorsArray.push(color);
+        anglesArray.push(Math.floor(Math.random() * 360));
+    }
+    console.log(colorsArray);
+    document.querySelector('figure').setAttribute('style', `background: linear-gradient(${anglesArray[1]}deg, #${colorsArray[1]}, #${colorsArray[0]}00 70%), linear-gradient(${anglesArray[2]}deg, #${colorsArray[2]}, #${colorsArray[0]}00 70%), linear-gradient(${anglesArray[3]}deg, #${colorsArray[3]}, #${colorsArray[0]}00 70%), linear-gradient(${anglesArray[4]}deg, #${colorsArray[4]}, #${colorsArray[0]}00 70%);`);
 }
 
 const createPost = function(event) {

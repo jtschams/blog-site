@@ -20,3 +20,7 @@ p {
     line-height: 150%;
     font-family: Helvetica, 'Segoe UI', Verdana, system-ui;
 }
+
+footer {
+    margin-top: 42px;
+}
